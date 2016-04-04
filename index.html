@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -26,165 +30,35 @@
       src="https://www.facebook.com/tr?id=1648388768756103&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Facebook Pixel Code -->
-    <style>
-      body {
-        margin: 3.5rem 0;
-      }
-
-      h1 {
-        font-size: 3.4rem;
-      }
-
-      a,
-      a:hover,
-      a:focus {
-        color: #f58634;
-        text-decoration: none;
-      }
-
-      hr {
-        margin-bottom: 3.0rem;
-      }
-
-      .img-responsive {
-        width: 100%;
-        display: block;
-      }
-
-      .text-center {
-        text-align: center;
-      }
-
-      .one-half.column {
-        width: 100%;
-      }
-
-      @media (min-width: 1000px) {
-        .one-half.column {
-          width: 48%;
-        }
-      }
-
-      nav {
-        border-top: solid #E1E1E1 0.1rem;
-        border-bottom: solid #E1E1E1 0.1rem;
-        margin-bottom: 2.5rem;
-        padding: 1.5rem 0 1.5rem;
-      }
-
-      nav ul,
-      footer ul {
-        list-style: none;
-        list-style-image: none;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-      }
-      
-      @media (max-width: 372px) {
-        nav li,
-        footer li {
-          margin: 0 0.4rem;
-          display: inline-block;
-        }
-      }
-      
-      @media (min-width: 373px) {
-        nav li,
-        footer li {
-          margin: 0 1.0rem;
-          display: inline-block;
-        }
-      }
-  
-      nav li {
-        font-size: 1.6rem;
-      }
-
-      footer li {
-        margin: 0 0.5rem;
-      }
-
-      footer a,
-      footer a:hover,
-      footer a:focus {
-        color: #222;
-      }
-
-      @media (min-width: 750px) {
-        footer li {
-          font-size: 1.4rem;
-        }
-      }
-
-      .my-face-icon {
-        max-width: 14rem;
-        margin: 0 auto 2.5rem;
-      }
-
-      @media (min-width: 550px) {
-        max-width: 20rem;
-      }
-
-      .my-face {
-        display: none;
-      }
-
-      .my-face-icon {
-        display: block;
-      }
-
-      @media (min-width: 1000px) {
-        .my-face {
-          display: block;
-        }
-
-        .my-face-icon {
-          display: none;
-        }
-      }
-    </style>
+    {% include styles.html %}
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="one-half column content">
-          <header>
-            <img class="img-responsive my-face-icon" src="my-face.jpg" alt="My face.">
-            <h1 class="text-center">Jordan Thornquest</h1>
-            <p class="tagline text-center">So far out of the box, but not so far out of my mind.</p>
-          </header>
-          <nav>
-            <ul>
-              <li><a href="http://blog.jordanthornquest.com">Blog</a></li>
-              <li><a href="http://music.jordanthornquest.com">Music</a></li>
-              <li><a href="http://shop.jordanthornquest.com">Shop</a></li>
-              <li><a href="http://shows.jordanthornquest.com">Shows</a></li>
-              <li><a href="https://youtube.com/jordanthornquest">Videos</a></li>
-            </ul>
-          </nav>
-          <main>
-          <p>I am a guitarist and a vocalist, and I'm currently practicing drums, as well! I am a recording engineer, and I'm currently working on getting a better understanding of the art of writing, recording, mixing, and mastering music. You can listen to my <a href="http://music.jordanthornquest.com">solo work</a>, check out my band <a href="http://foxandcapture.com">Fox & Capture</a>, and hear my production of other people's music from my recording studio <a href="https://soundcloud.com/thornqueststudios">Thornquest Studios</a>. Plus, if you like what you hear, you can buy my favorite things I've made on <a href="http://shop.jordanthornquest.com">Bandcamp</a>.</p>
-          <p>When I'm not doing music, I'm either playing with my corgi <a href="https://instagram.com/p/sz2GxWvuRY">Jess</a>, spending time with people I like, or writing <a href="http://blog.jordanthornquest.com">on my blog</a>! If you're interested in doing something creative, be sure to <a href="mailto:me@jordanthornquest.com">email me</a> or contact me via the social networks I'm available on.</p>
-          </main>
-          <hr>
-          <footer>
-            <ul>
-              <li><a href="http://shop.jordanthornquest.com"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i></span></a></li>
-              <li><a href="https://www.facebook.com/jordanthornquestofficial"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></li>
-              <li><a href="https://instagram.com/jordanthornquest"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li>
-              <li><a href="http://music.jordanthornquest.com"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-soundcloud fa-stack-1x fa-inverse"></i></span></a></li>
-              <li><a href="http://blog.jordanthornquest.com"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-tumblr fa-stack-1x fa-inverse"></i></span></a></li>
-              <li><a href="https://twitter.com/jsthornquest"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a></li>
-              <li><a href="https://youtube.com/jordanthornquest"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-youtube-play fa-stack-1x fa-inverse"></i></span></a></li>
-            </ul>
-          </footer>
-        </div>
-        <div class="one-half column my-face">
-          <img class="img-responsive" src="my-face.jpg" alt="My face.">
+    <header class="intro">
+      <div class="intro-content">
+        <img class="img-responsive logo" src="logo.png" alt="Jordan Thornquest"></img>
+        <h2>So far out of the box, but not so far out of my mind.</h2>
+        <nav>
+          <ul>
+            <li><a href="http://blog.jordanthornquest.com">Blog</a></li>
+            <li><a href="http://music.jordanthornquest.com">Music</a></li>
+            <li><a href="http://shop.jordanthornquest.com">Shop</a></li>
+            <li><a href="http://shows.jordanthornquest.com">Shows</a></li>
+            <li><a href="http://videos.jordanthornquest.com">Videos</a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <ul>
+            <li><a href="http://shop.jordanthornquest.com"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i></span></a></li>
+            <li><a href="https://www.facebook.com/jordanthornquestofficial"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></li>
+            <li><a href="https://instagram.com/jordanthornquest"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li>
+            <li><a href="http://music.jordanthornquest.com"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-soundcloud fa-stack-1x fa-inverse"></i></span></a></li>
+            <li><a href="http://blog.jordanthornquest.com"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-tumblr fa-stack-1x fa-inverse"></i></span></a></li>
+            <li><a href="https://twitter.com/jsthornquest"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a></li>
+            <li><a href="https://videos.jordanthornquest.com"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-youtube-play fa-stack-1x fa-inverse"></i></span></a></li>
+          </ul>
         </div>
       </div>
-    </div>
+    </header>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

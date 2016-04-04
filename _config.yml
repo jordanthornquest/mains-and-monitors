@@ -1,0 +1,11 @@
+# Settings
+name: 'Jordan Thornquest'
+description: 'So far out of the box, but not so far out of my mind.'
+permalink: pretty
+relative_permalinks: false
+exclude: ["vendor", "README.md", "Gemfile", "Gemfile.lock", "config", "deploy.rb", "sample_deploy.rb", ".bowerrc", "bower.json"]
+
+# Sass
+sass:
+    style: :compressed
+    sass_dir: "assets/css"

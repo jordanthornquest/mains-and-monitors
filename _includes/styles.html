@@ -1,0 +1,101 @@
+<style>
+
+  body {
+    background-color: black;
+  }
+
+  a,
+  a:hover,
+  a:focus {
+    color: #f58634;
+    text-decoration: none;
+  }
+
+  .img-responsive {
+    max-width: 100%;
+    display: block;
+  }
+
+  nav {
+    border-top: solid white 0.1rem;
+    border-bottom: solid white 0.1rem;
+    margin-bottom: 2.5rem;
+    padding: 1.5rem 0 1.5rem;
+  }
+
+  nav ul,
+  .social ul {
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 2.0rem;
+  }
+
+  @media (max-width: 372px) {
+    nav li,
+    .social li {
+      margin: 0 0.4rem;
+      display: inline-block;
+    }
+  }
+
+  @media (min-width: 373px) {
+    nav li,
+    .social li {
+      margin: 0 2.0rem;
+      display: inline-block;
+    }
+  }
+
+  .social li {
+    margin: 0 0.5rem;
+  }
+
+  .social a,
+  .social a:hover,
+  .social a:focus {
+    color: white;
+  }
+
+  .social .fa-inverse {
+    color: black;
+  }
+
+  @media (min-width: 750px) {
+    .social li {
+      font-size: 1.4rem;
+    }
+  }
+
+  .intro {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('intro.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    color: white;
+    text-align: center;
+  }
+
+  .intro-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .intro-content h2 {
+    font-size: 2.5rem;
+  }
+
+  .logo {
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+</style>
