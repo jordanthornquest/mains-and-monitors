@@ -1,5 +1,6 @@
 <style>
 
+  /* Universal Styles */
   body {
     background-color: black;
   }
@@ -16,13 +17,7 @@
     display: block;
   }
 
-  nav {
-    border-top: solid white 0.1rem;
-    border-bottom: solid white 0.1rem;
-    margin-bottom: 2.5rem;
-    padding: 1.5rem 0 1.5rem;
-  }
-
+  /* Nav & Social Shared Styles */
   nav ul,
   .social ul {
     list-style: none;
@@ -30,47 +25,30 @@
     margin: 0;
     padding: 0;
     text-align: center;
+  }
+
+  nav li,
+  .social li {
+    display: inline-block;
+  }
+
+  /* Nav Styles */
+  nav {
+    border-top: solid white 0.1rem;
+    border-bottom: solid white 0.1rem;
+    margin-bottom: 2.5rem;
+    padding: 1.5rem 0 1.5rem;
+  }
+
+
+  nav li {
+    margin: 0 2.0rem;
     font-size: 2.0rem;
   }
 
-  @media (max-width: 372px) {
-    nav li,
-    .social li {
-      margin: 0 0.4rem;
-      display: inline-block;
-    }
-  }
-
-  @media (min-width: 373px) {
-    nav li,
-    .social li {
-      margin: 0 2.0rem;
-      display: inline-block;
-    }
-  }
-
-  .social li {
-    margin: 0 0.5rem;
-  }
-
-  .social a,
-  .social a:hover,
-  .social a:focus {
-    color: white;
-  }
-
-  .social .fa-inverse {
-    color: black;
-  }
-
-  @media (min-width: 750px) {
-    .social li {
-      font-size: 1.4rem;
-    }
-  }
-
+  /* Intro Styles */
   .intro {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('intro.png') no-repeat center center fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('intro.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -82,6 +60,7 @@
   }
 
   .intro-content {
+    max-width: 600px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -93,9 +72,24 @@
   }
 
   .logo {
-    max-height: 300px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  /* Social Styles */
+  .social li {
+    margin: 0 0.5rem;
+  }
+
+  .social a,
+  .social a:hover,
+  .social a:focus {
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  .social .fa-inverse {
+    color: black;
   }
 
 </style>
