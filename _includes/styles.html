@@ -17,7 +17,7 @@
     display: block;
   }
 
-  /* Nav & Social Shared Styles */
+  /* Universal Nav & Social Shared Styles */
   nav ul,
   .social ul {
     list-style: none;
@@ -32,7 +32,7 @@
     display: inline-block;
   }
 
-  /* Nav Styles */
+  /* Universal Nav Styles */
   nav {
     border-top: solid white 0.1rem;
     border-bottom: solid white 0.1rem;
@@ -40,35 +40,36 @@
     padding: 1.5rem 0 1.5rem;
   }
 
-
-  nav li {
-    margin: 0 2.0rem;
-    font-size: 2.0rem;
+  /* Mobile Nav Styles */
+  @media (max-width: 999px) {
+    nav li {
+      margin: 0 0.7rem;
+      font-size: 1.5rem;
+    }
   }
 
-  /* Intro Styles */
+  /* Desktop Nav Styles */
+  @media (min-width: 1000px) {
+    nav li {
+      margin: 0 2.0rem;
+      font-size: 2.0rem;
+    }
+  }
+
+  /* Universal Intro Styles */
   .intro {
+    color: white;
+    text-align: center;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('intro.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height: 100vh;
-    position: relative;
-    color: white;
-    text-align: center;
   }
 
   .intro-content {
     max-width: 600px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .intro-content h2 {
-    font-size: 2.5rem;
   }
 
   .logo {
@@ -76,11 +77,42 @@
     margin-right: auto;
   }
 
-  /* Social Styles */
-  .social li {
-    margin: 0 0.5rem;
+  /* Mobile Intro Styles */
+  @media (max-width: 999px) {
+    .intro-content {
+      margin-right: auto;
+      margin-left: auto;
+      padding: 0 15px;
+    }
+
+    .intro-content h2 {
+      font-size: 2.0rem;
+    }
+
+    .logo {
+      padding-top: 30px;
+    }
   }
 
+  /* Desktop Intro Styles */
+  @media (min-width: 1000px) {
+    .intro {
+      position: relative;
+    }
+
+    .intro-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .intro-content h2 {
+      font-size: 2.5rem;
+    }
+  }
+
+  /* Universal Social Styles */
   .social a,
   .social a:hover,
   .social a:focus {
@@ -90,6 +122,32 @@
 
   .social .fa-inverse {
     color: black;
+  }
+
+  /* Mobile Social Styles */
+  @media (max-width: 999px) {
+    .social a,
+    .social a:hover,
+    .social a:focus {
+      font-size: 1.3rem;
+    }
+
+    .social li {
+      margin: 0 0.1rem;
+    }
+  }
+
+  /* Desktop Social Styles */
+  @media (min-width: 1000px) {
+    .social a,
+    .social a:hover,
+    .social a:focus {
+      font-size: 1.5rem;
+    }
+
+    .social li {
+      margin: 0 0.5rem;
+    }
   }
 
 </style>
