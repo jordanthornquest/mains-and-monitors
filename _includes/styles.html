@@ -2,7 +2,12 @@
 
   /* Universal Styles */
   body {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('intro.jpg') no-repeat center center fixed;
     background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   a,
@@ -60,16 +65,6 @@
   .intro {
     color: white;
     text-align: center;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('intro.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh;
-  }
-
-  .intro-content {
-    max-width: 600px;
   }
 
   .logo {
@@ -83,6 +78,7 @@
       margin-right: auto;
       margin-left: auto;
       padding: 0 15px;
+      max-width: 350px;
     }
 
     .intro-content h2 {
@@ -97,6 +93,7 @@
   /* Desktop Intro Styles */
   @media (min-width: 1000px) {
     .intro {
+      height: 100vh;
       position: relative;
     }
 
@@ -105,6 +102,7 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+      max-width: 600px;
     }
 
     .intro-content h2 {
@@ -130,6 +128,10 @@
     .social a:hover,
     .social a:focus {
       font-size: 1.3rem;
+    }
+
+    .social {
+      padding-bottom: 30px;
     }
 
     .social li {
