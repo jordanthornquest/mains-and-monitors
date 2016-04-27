@@ -17,6 +17,16 @@
     text-decoration: none;
   }
 
+  .button {
+    color: white;
+    margin-bottom: 2rem;
+  }
+
+  .button:hover,
+  .button:focus {
+    color: white;
+  }
+
   .img-responsive {
     max-width: 100%;
     display: block;
@@ -47,7 +57,11 @@
 
   /* Mobile Nav Styles */
   @media (max-width: 999px) {
-    nav li {
+    .desktop-nav {
+      display: none;
+    }
+
+    .mobile-nav li {
       margin: 0 0.7rem;
       font-size: 1.5rem;
     }
@@ -55,9 +69,13 @@
 
   /* Desktop Nav Styles */
   @media (min-width: 1000px) {
-    nav li {
+    .mobile-nav {
+      display: none;
+    }
+
+    .desktop-nav li {
       margin: 0 2.0rem;
-      font-size: 2.0rem;
+      font-size: 1.5rem;
     }
   }
 
@@ -111,11 +129,14 @@
   }
 
   /* Universal Social Styles */
+  .social {
+    margin-bottom: 2.5rem;
+  }
+
   .social a,
   .social a:hover,
   .social a:focus {
     color: white;
-    font-size: 1.5rem;
   }
 
   .social .fa-inverse {
@@ -144,7 +165,7 @@
     .social a,
     .social a:hover,
     .social a:focus {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
 
     .social li {
