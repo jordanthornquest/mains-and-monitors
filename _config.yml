@@ -1,6 +1,6 @@
 # Settings
 name: 'Jordan Thornquest'
-description: 'So far out of the box, but not so far out of my mind.'
+description: 'Hey there. I’m Jordan, an artist from from Idaho. I make power-pop & post-punk, and recently released an EP called Late Bloomer.'
 permalink: pretty
 relative_permalinks: false
 exclude: ["vendor", "README.md", "Gemfile", "Gemfile.lock", "config", "deploy.rb", "sample_deploy.rb", ".bowerrc", "bower.json"]
