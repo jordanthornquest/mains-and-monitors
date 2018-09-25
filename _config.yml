@@ -1,11 +1,25 @@
-# Settings
-title: 'Jordan Thornquest'
-description: 'Hey there. I’m Jordan, an artist from from Idaho. I make power-pop & post-punk music, and often write on my blog.'
+---
+title: Jordan Thornquest
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+description: Hey there. I’m Jordan, an artist from from Idaho. I make power-pop &
+  post-punk music, and often write on my blog.
 permalink: pretty
 relative_permalinks: false
-exclude: ["vendor", "README.md", "Gemfile", "Gemfile.lock", "config", "deploy.rb", "sample_deploy.rb"]
-
-# Sass
+exclude:
+- vendor
+- README.md
+- Gemfile
+- Gemfile.lock
+- config
+- deploy.rb
+- sample_deploy.rb
 sass:
   sass_dir: _scss
   style: :compressed
