@@ -1,11 +1,11 @@
 # Settings
 name: 'Jordan Thornquest'
-description: 'Hey there. I’m Jordan, an artist from from Idaho. I make power-pop & post-punk, and recently released an EP called Late Bloomer.'
+description: 'Hey there. I’m Jordan, an artist from from Idaho. I make power-pop & post-punk music, and often write on my blog.'
 permalink: pretty
 relative_permalinks: false
-exclude: ["vendor", "README.md", "Gemfile", "Gemfile.lock", "config", "deploy.rb", "sample_deploy.rb", ".bowerrc", "bower.json"]
+exclude: ["vendor", "README.md", "Gemfile", "Gemfile.lock", "config", "deploy.rb", "sample_deploy.rb"]
 
 # Sass
 sass:
-    style: :compressed
-    sass_dir: "assets/css"
+  sass_dir: _scss
+  style: :compressed
