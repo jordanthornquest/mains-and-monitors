@@ -23,3 +23,4 @@ exclude:
 sass:
   sass_dir: _scss
   style: compressed
+url: http://www.jordanthornquest.com
