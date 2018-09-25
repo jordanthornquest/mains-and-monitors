@@ -1,6 +1,6 @@
 ---
 title: Jordan Thornquest
-timezone: UTC
+timezone: America/Denver
 collections:
   posts:
     title: Posts
@@ -22,4 +22,4 @@ exclude:
 - sample_deploy.rb
 sass:
   sass_dir: _scss
-  style: :compressed
+  style: compressed
