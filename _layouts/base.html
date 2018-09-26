@@ -8,7 +8,7 @@
     <meta name="description" content="{{ site.description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="manifest" href="site.webmanifest">
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
     <!-- <link rel="apple-touch-icon" href="icon.png"> -->
     <!-- Place favicon.ico in the root directory -->
     <link rel="stylesheet" href="{{ "assets/css/style.css" | absolute_url }}">
@@ -19,9 +19,23 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
 
+    <header class="content-wrapper">
+      <h1>Jordan Thornquest</h1>
+      <nav>
+        <ul>
+          <li><a href="{{ site.baseurl }}{% link index.md %}">Home</a></li>
+          <li><a href="{{ site.baseurl }}{% link about.md %}">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
     <main class="content-wrapper">
       {{ content }}
     </main>
+
+    <footer class="content-wrapper">
+      <p><em>Jordan Thornquest makes stuff.</em></p>
+    </footer>
 
   </body>
 
