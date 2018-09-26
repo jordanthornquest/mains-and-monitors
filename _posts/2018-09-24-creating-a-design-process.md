@@ -28,3 +28,5 @@ Use Sketch to begin scaffolding & fleshing out the idea. This is the time to fir
 Pick a framework & process based on the job that needs to be accomplished: whether to use a static framework, a headless CMS, an application framework, etc. Build the project with good foundations & practices.
 
 The current question: how to most elegantly use the mockup to create the final product. Sketch allows us to create pixel-perfect spacing for content, so **how do we utilize a correctly-designed mockup to streamline the process of taking it to code?**
+
+![](/v1537941777/samples/animals/kitten-playing.gif)
