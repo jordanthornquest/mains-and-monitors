@@ -29,4 +29,4 @@ Pick a framework & process based on the job that needs to be accomplished: wheth
 
 The current question: how to most elegantly use the mockup to create the final product. Sketch allows us to create pixel-perfect spacing for content, so **how do we utilize a correctly-designed mockup to streamline the process of taking it to code?**
 
-![](/v1537941777/samples/animals/kitten-playing.gif)
+![Aww, cute cat](/v1537941777/samples/animals/kitten-playing.gif "Cat")
