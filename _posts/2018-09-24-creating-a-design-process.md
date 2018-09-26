@@ -1,6 +1,7 @@
 ---
-layout: blog
 title: Creating a Design Process
+date: 2018-09-24 00:00:00 -06:00
+layout: blog
 ---
 
 # Creating a Design Process
