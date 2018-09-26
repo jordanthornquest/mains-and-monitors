@@ -2,6 +2,19 @@
 layout: base
 ---
 
-<article>
-  {{ content }}
-</article>
+<section>
+  <article>
+    {{ content }}
+  </article>
+</section>
+
+<section>
+  <h1>Writing</h1>
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
