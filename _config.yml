@@ -1,13 +1,5 @@
----
 title: Jordan Thornquest
 timezone: America/Denver
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
 author:
   twitter: jsthornquest
 twitter:
@@ -40,3 +32,9 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+defaults:
+  # Default image for cards
+  # - scope:
+  #     path: ""
+  #   values:
+  #     image: /assets/images/default-card.png
