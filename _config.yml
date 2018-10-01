@@ -8,8 +8,20 @@ collections:
   uploads:
     title: Uploads
     output: true
+author:
+  twitter: jsthornquest
+twitter:
+  card: summary
 description: Hey there. I’m Jordan, an artist from from Idaho. I make power-pop &
   post-punk music, and often write on my blog.
+social:
+  links:
+    - https://github.com/jordanthornquest
+    - https://instagram.com/jordanthornquest
+    - https://twitter.com/jsthornquest
+    - https://youtube.com/jordanthornquest
+lang: en_US
+google_site_verification: UA-43529240-7
 permalink: pretty
 relative_permalinks: false
 exclude:
@@ -23,7 +35,7 @@ exclude:
 sass:
   sass_dir: _scss
   style: compressed
-url: http://www.jordanthornquest.com
+url: https://jordanthornquest.com
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
