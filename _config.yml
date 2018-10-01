@@ -26,5 +26,5 @@ sass:
 url: http://www.jordanthornquest.com
 plugins:
   - jekyll-feed
-  - jekyll-seo
+  - jekyll-seo-tag
   - jekyll-sitemap
