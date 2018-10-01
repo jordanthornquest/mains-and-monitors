@@ -5,12 +5,10 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- <link rel="manifest" href="site.webmanifest"> -->
     <!-- <link rel="apple-touch-icon" href="icon.png"> -->
     <!-- Place favicon.ico in the root directory -->
     <link rel="stylesheet" href="{{ "assets/css/style.css" | absolute_url }}">
-
     {% seo %}
   </head>
 
@@ -20,11 +18,12 @@
     <![endif]-->
 
     <header class="content-wrapper">
-      <h1>Jordan Thornquest</h1>
+      <h1>{{ site.title }} <small><a href="https://twitter.com/jsthornquest">@jsthornquest</a></small></h1>
       <nav>
         <ul>
-          <li><a href="{{ site.baseurl }}{% link index.md %}">Home</a></li>
-          <li><a href="{{ site.baseurl }}{% link about.md %}">About</a></li>
+          {% for link in site.data.nav.nav_items %}
+          <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+          {% endfor %}
         </ul>
       </nav>
     </header>
@@ -34,7 +33,7 @@
     </main>
 
     <footer class="content-wrapper">
-      <p><em>Jordan Thornquest makes stuff.</em></p>
+      <small>Copyright &copy; 2018 Jordan Thornquest. <a href="{{ site.baseurl }}/feed.xml">Atom Feed.</a> <a href="https://www.instagram.com/p/Bn8H2gNADg6/">The dog's name is Jess.</a></small>
     </footer>
 
   </body>
