@@ -24,3 +24,7 @@ sass:
   sass_dir: _scss
   style: compressed
 url: http://www.jordanthornquest.com
+plugins:
+  - jekyll-feed
+  - jekyll-seo
+  - jekyll-sitemap
