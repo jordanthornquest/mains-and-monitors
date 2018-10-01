@@ -1,9 +1,14 @@
 ---
 title: Creating a Design Process
-date: 2018-09-24 06:00:00 +0000
+date: 2018-09-24 00:00:00 -06:00
+categories:
+- blog
+- design
+tags:
+- design
+- process
+- sketch
 layout: post
-categories: [blog, design]
-tags: [design, process, sketch]
 ---
 
 # Creating a Design Process
