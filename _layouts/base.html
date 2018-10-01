@@ -8,7 +8,7 @@
     <!-- <link rel="manifest" href="site.webmanifest"> -->
     <!-- <link rel="apple-touch-icon" href="icon.png"> -->
     <!-- Place favicon.ico in the root directory -->
-    <link rel="stylesheet" href="{{ "assets/css/style.css" | absolute_url }}">
+    <link rel="stylesheet" href="{{ 'assets/css/style.css' | absolute_url }}">
     {% seo %}
   </head>
 
@@ -22,7 +22,7 @@
       <nav>
         <ul>
           {% for link in site.data.nav.nav_items %}
-          <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+          <li></li>
           {% endfor %}
         </ul>
       </nav>
