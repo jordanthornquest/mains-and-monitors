@@ -1,8 +1,16 @@
 ---
 title: Home
 layout: full-page
-image: sweet-thing.jpg
-image-alt: My Corgi, Jess, laying in the grass.
 ---
 
-# Mains & Monitors
+# Kalani
+
+Out now.
+
+<nav>
+  <ul>
+    {% for link in site.data.nav.nav_items %}
+      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
