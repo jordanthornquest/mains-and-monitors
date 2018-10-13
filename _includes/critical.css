@@ -34,12 +34,12 @@ p {
 
 a,
 a:visited {
-  color: #85B4BE;
+  color: #33727F;
 }
 
 a:hover,
 a:active {
-  color: #33727F;
+  color: #85B4BE;
 }
 
 a {
