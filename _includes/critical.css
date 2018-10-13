@@ -1,3 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:700|Open+Sans:400,400i,700');
+
+body {
+  margin: 5px 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+p, a, ul, ol, li {
+  font-family: 'Open Sans', sans-serif;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+a,
+a:visited {
+  color: #85B4BE;
+}
+
+a:hover,
+a:active {
+  color: #33727F;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.content-wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
 {% if layout.full-page %}
 
   html {
@@ -35,17 +87,9 @@
     }
   }
 
+  .content-wrapper {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
 {% endif %}
-
-body {
-  margin: 5px 10px;
-}
-
-img {
-  width: 100%;
-}
-
-.content-wrapper {
-  margin: 0 auto;
-  max-width: 800px;
-}
