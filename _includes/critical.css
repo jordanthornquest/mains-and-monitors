@@ -56,8 +56,37 @@ li {
   margin: 0 0 1em;
 }
 
+ul.social {
+  text-align: center;
+  font-size: 8px;
+}
+
+ul.social li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+ul.social li:first-child {
+  margin-left: 0;
+}
+
+ul.social li:last-child {
+  margin-right: 0;
+}
+
 img {
   width: 100%;
+}
+
+hr {
+  margin: 20px;
+  border-color: #ccc;
+  border-bottom: none;
+}
+
+footer p {
+  font-size: 0.8rem;
+  margin-bottom: 1em;
 }
 
 .content-wrapper {

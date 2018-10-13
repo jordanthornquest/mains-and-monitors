@@ -1,0 +1,22 @@
+social_items: 
+- title: Apple Music
+  url: https://itunes.apple.com/us/artist/mains-monitors/1100036129
+  icon: apple
+- title: Bandcamp
+  url: https://mainsandmonitors.bandcamp.com
+  icon: bandcamp
+- title: Facebook
+  url: https://www.facebook.com/mains.and.monitors/
+  icon: facebook
+- title: Instagram
+  url: https://www.instagram.com/mainsandmonitors/
+  icon: instagram
+- title: Spotify
+  url: https://open.spotify.com/artist/5IJE9B9PqK8joFcRvqDAeb
+  icon: spotify
+- title: Twitter
+  url: https://twitter.com/mains_monitors
+  icon: twitter
+- title: YouTube
+  url: https://www.youtube.com/channel/UCPjRGKMs41ZXA2KLpbQnB-A
+  icon: youtube

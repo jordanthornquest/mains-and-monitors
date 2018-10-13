@@ -12,7 +12,9 @@ layout: compress
     <!-- <link rel="manifest" href="site.webmanifest"> -->
     <!-- <link rel="apple-touch-icon" href="icon.png"> -->
     <!-- Place favicon.ico in the root directory -->
+    <link rel="preload" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous" as="style" onload="this.rel='stylesheet'">
     <link rel="preload" href="{{ 'assets/css/style.css' | absolute_url }}" as="style" onload="this.rel='stylesheet'">
+		<noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous"></noscript>
     <noscript><link rel="stylesheet" href="{{ 'assets/css/style.css' | absolute_url }}"></noscript>
     {% capture styles %}
       {% include critical.css %}
@@ -51,8 +53,15 @@ layout: compress
 
     <footer class="content-wrapper">
       <ul class="social">
-        {% for link in site.data.nav.social_items %}
-          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        {% for link in site.data.social.social_items %}
+          <li>
+						<a aria-label="{{ link.title }}" href="{{ link.url }}">
+							<span aria-hidden class="fa-stack fa-2x">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fab fa-{{ link.icon }} fa-stack-1x fa-inverse"></i>
+							</span>
+						</a>
+					</li>
         {% endfor %}
       </ul>
       <hr>
