@@ -1,3 +1,7 @@
+---
+layout: compress
+---
+
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -22,7 +26,7 @@
       <nav>
         <ul>
           {% for link in site.data.nav.nav_items %}
-          <li></li>
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
       </nav>
