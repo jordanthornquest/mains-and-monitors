@@ -6,12 +6,12 @@ layout: base
   {% if page.image %}
     <img
     sizes="(min-width: 30em) 28em, 100vw"
-    srcset="https://res.cloudinary.com/deedobzcr/image/upload/f_auto,q_70,w_256/{{ page.image }} 256w,
-            https://res.cloudinary.com/deedobzcr/image/upload/f_auto,q_70,w_512/{{ page.image }} 512w,
-            https://res.cloudinary.com/deedobzcr/image/upload/f_auto,q_70,w_768/{{ page.image }} 768w,
-            https://res.cloudinary.com/deedobzcr/image/upload/f_auto,q_70,w_1024/{{ page.image }} 1024w,
-            https://res.cloudinary.com/deedobzcr/image/upload/f_auto,q_70,w_1280/{{ page.image }} 1280w"
-    src="https://res.cloudinary.com/deedobzcr/image/upload/f_auto,q_70,w_512/{{ page.image }}"
+    srcset="https://res.cloudinary.com/deedobzcr/image/upload/f_auto,q_70,w_256,ar_16:9,c_fill/{{ page.image }} 256w,
+            https://res.cloudinary.com/deedobzcr/image/upload/f_auto,q_70,w_512,ar_16:9,c_fill/{{ page.image }} 512w,
+            https://res.cloudinary.com/deedobzcr/image/upload/f_auto,q_70,w_768,ar_16:9,c_fill/{{ page.image }} 768w,
+            https://res.cloudinary.com/deedobzcr/image/upload/f_auto,q_70,w_1024,ar_16:9,c_fill/{{ page.image }} 1024w,
+            https://res.cloudinary.com/deedobzcr/image/upload/f_auto,q_70,w_1280,ar_16:9,c_fill/{{ page.image }} 1280w"
+    src="https://res.cloudinary.com/deedobzcr/image/upload/f_auto,q_70,w_512,ar_16:9,c_fill/{{ page.image }}"
     alt="{{ page.image-alt }}" />
   {% endif %}
   {{ content }}

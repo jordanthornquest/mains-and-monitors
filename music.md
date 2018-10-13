@@ -1,6 +1,6 @@
 ---
 title: Music
 layout: page
+image: angrrry.gif
+image-alt: A tremendously pissy corgi attacking a head of lettuce.
 ---
-
-![A kitten playing with yarn](https://res.cloudinary.com/deedobzcr/image/upload/v1537941777/samples/animals/kitten-playing.gif)
