@@ -5,7 +5,7 @@ layout: full-page
 
 # Kalani
 
-Out now.
+Coming soon.
 
 <nav>
   <ul>

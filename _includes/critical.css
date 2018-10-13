@@ -79,7 +79,8 @@ img {
 }
 
 hr {
-  margin: 20px;
+  margin: 20px auto 20px;
+  max-width: 250px;
   border-color: #ccc;
   border-bottom: none;
 }
@@ -97,7 +98,10 @@ footer p {
 {% if layout.full-page %}
 
   html {
-    background: url(https://res.cloudinary.com/deedobzcr/image/upload/c_scale,w_900/v1539408113/hands.jpg) no-repeat center center fixed;
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.5), 
+      rgba(255, 255, 255, 0.5)
+    ), url(https://res.cloudinary.com/deedobzcr/image/upload/c_scale,w_900/v1539408113/hands.jpg) no-repeat center center fixed;
     background-image: 
       -webkit-image-set(
         "https://res.cloudinary.com/deedobzcr/image/upload/c_scale,w_900/v1539408113/hands.jpg" 1x,
@@ -117,7 +121,10 @@ footer p {
   @media
     (min-width: 900px) {
     html {
-      background: url(https://res.cloudinary.com/deedobzcr/image/upload/c_scale,w_2048/v1539408113/hands.jpg) no-repeat center center fixed;
+      background: linear-gradient(
+        rgba(255, 255, 255, 0.5), 
+        rgba(255, 255, 255, 0.5)
+      ), url(https://res.cloudinary.com/deedobzcr/image/upload/c_scale,w_2048/v1539408113/hands.jpg) no-repeat center center fixed;
       background-image: 
         -webkit-image-set(
           "https://res.cloudinary.com/deedobzcr/image/upload/c_scale,w_2048/v1539408113/hands.jpg" 1x,
@@ -146,6 +153,63 @@ footer p {
 
   .content-wrapper article {
     margin-bottom: 4em;
+  }
+
+  @media (min-width: 900px) {
+    html {
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100%;
+      overflow: hidden;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 15px 0;
+    }
+
+    nav ul li:first-child {
+      margin-left: 0;
+    }
+
+    nav ul li {
+      margin-right: 0;
+    }
+
+    header.content-wrapper {
+      margin-top: 50px;
+    }
+
+    header.content-wrapper p {
+      font-size: 1.1rem;
+    }
+
+    .content-wrapper {
+      max-width: 100%;
+      margin: 0;
+    }
+
+    .content-wrapper h1 {
+      font-size: 5rem;
+    }
+
+    main {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    footer {
+      height: 150px; 
+      width:100%;
+      position: absolute;
+      left: 0;
+      bottom: 0; 
+    }
   }
 
 {% endif %}
