@@ -2,6 +2,10 @@ body {
   margin: 5px 10px;
 }
 
+img {
+  width: 100%;
+}
+
 .content-wrapper {
   margin: 0 auto;
   max-width: 800px;

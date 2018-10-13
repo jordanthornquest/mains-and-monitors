@@ -1,6 +1,7 @@
 ---
 title: About
 layout: page
+image: laughin.jpg
 ---
 
 # Who, this nerd?
