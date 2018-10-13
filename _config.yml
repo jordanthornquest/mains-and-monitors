@@ -1,5 +1,13 @@
+---
 title: Jordan Thornquest
 timezone: America/Denver
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 author:
   twitter: jsthornquest
 twitter:
@@ -8,10 +16,10 @@ description: Hey there. I’m Jordan, an artist from from Idaho. I make power-po
   post-punk music, and often write on my blog.
 social:
   links:
-    - https://github.com/jordanthornquest
-    - https://instagram.com/jordanthornquest
-    - https://twitter.com/jsthornquest
-    - https://youtube.com/jordanthornquest
+  - https://github.com/jordanthornquest
+  - https://instagram.com/jordanthornquest
+  - https://twitter.com/jsthornquest
+  - https://youtube.com/jordanthornquest
 lang: en_US
 google_site_verification: UA-43529240-7
 permalink: pretty
