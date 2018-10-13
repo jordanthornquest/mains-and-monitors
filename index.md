@@ -5,7 +5,7 @@ layout: full-page
 
 # Kalani
 
-Coming soon.
+New album coming soon.
 
 <nav>
   <ul>
