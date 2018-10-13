@@ -2,6 +2,7 @@
 
 body {
   margin: 5px 10px;
+  font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,6 +23,15 @@ em {
   font-style: italic;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1rem;
+  margin: 1em 0 3em;
+}
+
 a,
 a:visited {
   color: #85B4BE;
@@ -39,6 +49,11 @@ a {
 ul {
   list-style: none;
   padding: 0;
+}
+
+li {
+  letter-spacing: 1px;
+  margin: 0 0 1em;
 }
 
 img {
@@ -87,9 +102,21 @@ img {
     }
   }
 
+  header p {
+    margin-bottom: 2em;
+  }
+
   .content-wrapper {
     text-align: center;
     text-transform: uppercase;
+  }
+
+  .content-wrapper article h1 {
+    margin-bottom: 0;
+  }
+
+  .content-wrapper article {
+    margin-bottom: 4em;
   }
 
 {% endif %}
