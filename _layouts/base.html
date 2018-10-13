@@ -17,7 +17,13 @@ layout: compress
     {% capture styles %}
       {% include critical.css %}
     {% endcapture %}
+    {% capture full-page-styles %}
+      {% include full-page-styles.css %}
+    {% endcapture %}
     <style>
+      {% if layout.full-page %}
+        {{ full-page-styles | scssify }}
+      {% endif %}
       {{ styles | scssify }}
     </style>
     {% seo %}
