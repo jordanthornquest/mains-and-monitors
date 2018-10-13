@@ -22,7 +22,7 @@ layout: compress
     <![endif]-->
 
     <header class="content-wrapper">
-      <h1>{{ site.title }} <small><a href="https://twitter.com/jsthornquest">@jsthornquest</a></small></h1>
+      <p><a href="{{ site.baseurl }}">{{ site.title }}</a></p>
       <nav>
         <ul>
           {% for link in site.data.nav.nav_items %}
@@ -37,7 +37,12 @@ layout: compress
     </main>
 
     <footer class="content-wrapper">
-      <small>Copyright &copy; 2018 Jordan Thornquest. <a href="{{ site.baseurl }}/feed.xml">Atom Feed.</a> <a href="https://www.instagram.com/p/Bn8H2gNADg6/">The dog's name is Jess.</a></small>
+      <ul>
+        <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
+        <li><a href="{{ site.baseurl }}/feed.xml">Atom Feed</a></li>
+        <li><a href="https://www.twitter.com/jsthornquest">Twitter</a></li>
+      </ul>
+      <p>Copyright &copy; 2018 Jordan Thornquest. <a href="https://www.instagram.com/p/Bn8H2gNADg6/">The dog's name is Jess.</a></p> 
     </footer>
 
   </body>
