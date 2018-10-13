@@ -12,7 +12,14 @@ layout: compress
     <!-- <link rel="manifest" href="site.webmanifest"> -->
     <!-- <link rel="apple-touch-icon" href="icon.png"> -->
     <!-- Place favicon.ico in the root directory -->
-    <link rel="stylesheet" href="{{ 'assets/css/style.css' | absolute_url }}">
+    <link rel="preload" href="{{ 'assets/css/style.css' | absolute_url }}" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ 'assets/css/style.css' | absolute_url }}"></noscript>
+    {% capture styles %}
+      {% include critical.css %}
+    {% endcapture %}
+    <style>
+      {{ styles | scssify }}
+    </style>
     {% seo %}
   </head>
 

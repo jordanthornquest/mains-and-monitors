@@ -1,0 +1,8 @@
+body {
+  margin: 5px 10px;
+}
+
+.content-wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+}
