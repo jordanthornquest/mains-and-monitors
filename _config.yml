@@ -37,20 +37,20 @@ sass:
   style: compressed
 url: https://jordanthornquest.com
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-sitemap
 compress_html:
   clippings: all
-  comments: ["<!-- ", " -->"]
+  comments:
+  - "<!-- "
+  - " -->"
   endings: all
   ignore:
-    envs: [local]
+    envs:
+    - local
   blanklines: false
-  startings: [html, head, body]
-defaults:
-  # Default image for cards
-  # - scope:
-  #     path: ""
-  #   values:
-  #     image: /assets/images/default-card.png
+  startings:
+  - html
+  - head
+  - body
