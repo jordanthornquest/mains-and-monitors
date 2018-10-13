@@ -1,5 +1,5 @@
 ---
-title: Jordan Thornquest
+title: Mains & Monitors
 timezone: America/Denver
 collections:
   posts:
@@ -9,19 +9,17 @@ collections:
     title: Uploads
     output: true
 author:
-  twitter: jsthornquest
+  twitter: mains_monitors
 twitter:
   card: summary
-description: Hey there. I’m Jordan, an artist from from Idaho. I make power-pop &
-  post-punk music, and often write on my blog.
+description: Mains & Monitors is an Indie Alt Punk band from Twin Falls, Idaho. Chase Chandler is the primary songwriter, using pop- influenced lyrical and musical stylings to bring alt-rock an accessible feel and sound. Mains & Monitors songs are general lamentations of the lives and experiences of teens and twenty-somethings. The band formed in 2015 in Twin Falls, a city of 50,000.
 social:
   links:
-  - https://github.com/jordanthornquest
-  - https://instagram.com/jordanthornquest
-  - https://twitter.com/jsthornquest
-  - https://youtube.com/jordanthornquest
+  - https://www.instagram.com/mainsandmonitors/
+  - https://twitter.com/mains_monitors
+  - https://www.facebook.com/mains.and.monitors
+  - https://www.youtube.com/channel/UCPjRGKMs41ZXA2KLpbQnB-A
 lang: en_US
-google_site_verification: UA-43529240-7
 permalink: pretty
 relative_permalinks: false
 exclude:
@@ -35,7 +33,7 @@ exclude:
 sass:
   sass_dir: _scss
   style: compressed
-url: https://jordanthornquest.com
+url: https://mainsandmonitors.com
 plugins:
 - jekyll-feed
 - jekyll-seo-tag
