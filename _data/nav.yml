@@ -1,9 +1,13 @@
 nav_items: 
 - title: Home
   url: /
-- title: Blog
-  url: /blog
 - title: Music
   url: /music
+- title: Merch
+  url: https://mainsandmonitors.bigcartel.com
+- title: Photos
+  url: https://www.instagram.com/mainsandmonitors/
+- title: Videos
+  url: https://www.youtube.com/channel/UCPjRGKMs41ZXA2KLpbQnB-A
 - title: About
   url: /about
