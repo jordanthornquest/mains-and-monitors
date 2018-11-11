@@ -42,6 +42,20 @@ a:active {
   color: #85B4BE;
 }
 
+.button,
+.button:visited {
+  background-color: #33727F;
+  border-radius: 5px;
+  color: white;
+  padding: 15px;
+}
+
+.button:hover,
+.button:active {
+  background-color: #85B4BE;
+  color: black;
+}
+
 a {
   text-decoration: none;
 }
