@@ -6,6 +6,8 @@ layout: full-page
 
 # Kalani
 
+Album coming Thanksgiving Day 2018.
+
 <a class="button" href="https://www.youtube.com/watch?v=OFwCMxfd7kk">Hear our new single "Auckland"</a>
 
 <nav>
