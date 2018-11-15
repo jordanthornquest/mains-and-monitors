@@ -6,9 +6,9 @@ layout: full-page
 
 # Kalani
 
-Album coming Thanksgiving Day 2018.
+New album out now on Bandcamp. Available everywhere Thanksgiving Day 2018.
 
-<a class="button" href="https://www.youtube.com/watch?v=OFwCMxfd7kk">Hear our new single "Auckland"</a>
+<a class="button" href="https://mainsandmonitors.bandcamp.com/album/kalani">Listen to Kalani Now</a>
 
 <nav>
   <ul>
