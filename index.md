@@ -6,7 +6,7 @@ layout: full-page
 
 # Kalani
 
-New album out now on Bandcamp. Available everywhere Thanksgiving Day 2018.
+Available now on Bandcamp, Spotify, Apple Music, and everywhere else. 
 
 <a class="button" href="https://mainsandmonitors.bandcamp.com/album/kalani">Listen to Kalani Now</a>
 
